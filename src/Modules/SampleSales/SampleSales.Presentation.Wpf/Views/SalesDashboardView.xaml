@@ -1,0 +1,10 @@
+<UserControl x:Class="SampleSales.Presentation.Wpf.Views.SalesDashboardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel Margin="12">
+        <TextBlock FontWeight="Bold" FontSize="16" Text="Sales Dashboard" />
+        <TextBlock Margin="0,8,0,0" Text="- 최근 주문 수" />
+        <TextBlock Text="- 실시간 매출" />
+        <TextBlock Text="- 오늘의 상위 고객" />
+    </StackPanel>
+</UserControl>
